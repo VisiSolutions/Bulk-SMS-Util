@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "twilio": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10"
+  }
+}
