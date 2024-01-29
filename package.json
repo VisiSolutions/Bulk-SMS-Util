@@ -1,4 +1,29 @@
 {
+  "name": "bulk-sms-util",
+  "description": "A utility to send SMS to a large number of contacts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisiSolutions/Bulk-SMS-Util.git"
+  },
+  "keywords": [
+    "twilio",
+    "sms",
+    "bulk"
+  ],
+  "author": "Ben Lewis",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/VisiSolutions/Bulk-SMS-Util/issues"
+  },
+  "homepage": "https://github.com/VisiSolutions/Bulk-SMS-Util#readme",
   "dependencies": {
     "dotenv": "^16.4.1",
     "twilio": "^4.21.0"
